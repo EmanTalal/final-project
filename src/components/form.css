@@ -1,0 +1,94 @@
+section.form {
+    background: url("https://www.rcrc.gov.sa/wp-content/uploads/2020/01/Addiriyah.jpg");
+    background-size: cover;
+    color: #fff;
+  }
+  
+  section.form .container {
+    background: #0005;
+    max-height: 100vh;
+    padding: 3rem;
+    overflow: auto;
+  }
+  
+  section.form .container .item {
+    margin-bottom: 4rem;
+  }
+  
+  section.form .container .item h3 {
+    font-size: 2rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+  }
+  
+  section.form .container .item .content {
+    display: flex;
+  }
+  
+  section.form .container .item .content .box {
+    margin-right: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: #00bbf9;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  section.form .container .item .content .box:hover {
+    background: #00bbf9d8;
+  }
+  
+  section.form .container .item .content .box .icon {
+    margin-right: 10px;
+  }
+  
+  section.form .container .item .content .filed {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  section.form .container .item .content .filed input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    padding: 1.5rem 1.5rem;
+  }
+  
+  section.form .container .item .content .filed .icon {
+    position: absolute;
+    color: #333;
+    right: 15px;
+    top: 15px;
+  }
+  
+  section.form .container .item .content .filed .btn {
+    position: absolute;
+    color: #333;
+    right: 0;
+    top: 7px;
+  }
+  
+  .next{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    
+  
+  }
+  
+  @media (max-width: 640px) {
+    section.form .container .item .content {
+      flex-wrap: wrap;
+    }
+    section.form .container .item .content .box {
+      margin-bottom: 10px;
+    }
+  }
+  
